@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API</title>
+  <link href="/CSS/index.css" rel="stylesheet">
+  <script src="/JS/api.js"></script>
+  <script src="/JS/index.js"></script>
+</head>
+<body>
+
+  <h2>Курсы к Белорусскому рублю</h2>
+
+  <!-- loading block -->
+
+  <div id="loading">
+    <h2>Загрузка, это займёт пару секунд</h2>
+  </div>
+    
+  <!-- Table -->
+
+  <table id="Table">
+  </table>
+
+  <!-- calculator -->
+
+  <div class="calculator">
+    <form id="calcForm">
+
+      <select id="currency_name1">
+      </select>
+
+      <p>Перевести в</p>
+
+      <select id="currency_name2">
+      </select>
+
+      <textarea
+        id="quantity"
+        rows="1"
+        cols="36"
+        placeholder="Сколько валюты перевести"
+      ></textarea>
+
+      <button type="button" id="button">Посчитать</button>
+
+    </form>
+    <h5 id="answer">Ответ:</h5>
+  </div>
+
+</body>
+</html>
