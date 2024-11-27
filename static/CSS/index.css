@@ -1,43 +1,39 @@
+/* general */
 
-/* Table */
+h1 {
+  font-size: 1.4em;
+}
+
+p {
+  display: inline-block;
+  margin: 0;
+}
+
+/* table */
 
 table {
+  float: left;
+  margin-right: 20px;
   border-spacing: 0px;
   border: 1px black solid;
 }
 
 td {
-  border: 1px black solid;
   width: 200px;
-}
-
-h4{
-  margin: 0px 0px 0px 3px;
-}
-
-tr {
-  display: inline-block;
-  width: 297px;
+  border: 1px black solid;
 }
 
 .value {
   width: 90px;
 }
 
-p {
-  margin: 0;
-  display: inline-block;
-}
-
 /* calculator */
 
 .calculator {
-  position: absolute;
-  border: 2px solid black;
-  left: 450px;
-  top: 10px;
+  display: inline-block;
   width: 800px;
   height: 400px;
+  border: 2px solid black;
 }
 
 textarea {
@@ -48,10 +44,11 @@ textarea {
 /* loading */
 
 #loading {
-    display: block;
-    z-index: 1;
-    position: fixed;
-    width: 40%;
-    background-color: white;
-    padding: 22% 30% 300% 37%;
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
 }

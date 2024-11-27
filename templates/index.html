@@ -10,30 +10,30 @@
 </head>
 <body>
 
-  <h2>Курсы к Белорусскому рублю</h2>
-
   <!-- loading block -->
-
+  
   <div id="loading">
-    <h2>Загрузка, это займёт пару секунд</h2>
+    <p>Загрузка, это займёт пару секунд</p>
   </div>
+
+  <h1>Курсы к Белорусскому рублю</h1>
     
   <!-- Table -->
 
-  <table id="Table">
+  <table id="table">
   </table>
 
   <!-- calculator -->
 
   <div class="calculator">
-    <form id="calcForm">
+    <form id="calc-form">
 
-      <select id="currency_name1">
+      <select id="currency-select1">
       </select>
 
       <p>Перевести в</p>
 
-      <select id="currency_name2">
+      <select id="currency-select2">
       </select>
 
       <textarea
@@ -43,10 +43,10 @@
         placeholder="Сколько валюты перевести"
       ></textarea>
 
-      <button type="button" id="button">Посчитать</button>
+      <button type="submit">Посчитать</button>
 
     </form>
-    <h5 id="answer">Ответ:</h5>
+    <p id="answer">Ответ:</p>
   </div>
 
 </body>
